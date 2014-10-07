@@ -1,0 +1,19 @@
+{
+    "name": "bauer01/fake-login",
+    "type": "library",
+    "description": "Fake login extension for Nette framework",
+    "keywords": ["php", "login", "user", "nette"],
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Bronislav Sedlak",
+            "homepage": "http://github.com/bauer01"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}

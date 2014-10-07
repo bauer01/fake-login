@@ -1,0 +1,11 @@
+<h1>Fake login</h1>
+<div class="nette-inner">
+    {if $identity}
+        {if !$user->isLoggedIn()}
+            {!$dumper($identity)}
+        {/if}
+        {form loginForm}
+            {input submit}
+        {/form}
+    {/if}
+</div>
