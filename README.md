@@ -3,7 +3,7 @@ Fake login
 
 Fake login extension for Nette framework.
 
-# Install
+## Install
 
 ```yml
 extension:
