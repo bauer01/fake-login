@@ -55,7 +55,7 @@ class Panel extends Application\UI\Control implements \Nette\Diagnostics\IBarPan
 
     public function register(Application\Application $application, Application\IPresenter $presenter)
     {
-        if (!$this->parent) {
+        if (!$this->parent && $presenter instanceof Application\UI\PresenterComponent) {
             $presenter->addComponent($this, "_fakeLogin");
         }
     }
